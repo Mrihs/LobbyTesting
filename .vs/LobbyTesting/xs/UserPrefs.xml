@@ -1,17 +1,24 @@
 ﻿<Properties StartupConfiguration="{C267A897-3F6D-F5B8-A1A9-D5295607DC15}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GameSettings.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Prefabs/MainMenu/Rooms/CreateRoom.cs">
     <Files>
-      <File FileName="Assets/TestConnect.cs" Line="47" Column="6" />
+      <File FileName="Assets/TestConnect.cs" Line="49" Column="1" />
       <File FileName="Assets/ScriptableObjectSingleton.cs" Line="8" Column="1" />
-      <File FileName="Assets/MasterManager.cs" Line="6" Column="1" />
-      <File FileName="Assets/GameSettings.cs" Line="5" Column="1" />
+      <File FileName="Assets/MasterManager.cs" Line="11" Column="157" />
+      <File FileName="Assets/GameSettings.cs" Line="9" Column="2" />
+      <File FileName="Assets/Prefabs/MainMenu/Rooms/CreateRoom.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="LobbyTesting" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="GameSettings.cs" selected="True" />
+              <Node name="Prefabs" expanded="True">
+                <Node name="MainMenu" expanded="True">
+                  <Node name="Rooms" expanded="True">
+                    <Node name="CreateRoom.cs" selected="True" />
+                  </Node>
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>
