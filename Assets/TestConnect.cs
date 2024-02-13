@@ -7,13 +7,16 @@ using UnityEngine;
 public class TestConnect : MonoBehaviourPunCallbacks
 {
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         //Message that Server-Connection is Set-Up
         print("Now connecting to Server.");
 
+        PhotonNetwork.NickName = MasterManager.GameSettings.Nickname;
+        PhotonNetwork.GameVersion = MasterManager.GameSettings.GameVersion;
+
         //Enter the Game-Version
-        PhotonNetwork.GameVersion = "0.0.1";
+        //PhotonNetwork.GameVersion = "0.0.1";
         // This makes that only Users with the same version can cooperate together
 
         //Connect to the Photon-Server
@@ -36,17 +39,13 @@ public class TestConnect : MonoBehaviourPunCallbacks
 
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     //When the Connection to the server has been achieved
     public override void OnConnectedToMaster() //MonoBehaviourPunCallbacks is needed so that this works
     {
         //Print when there is connection to the Server
         print("Connected to Server.");
+        //Print The Nickname
+        print(PhotonNetwork.LocalPlayer.NickName);
     }
 
     //When the Connection to the server fails
