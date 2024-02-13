@@ -46,6 +46,9 @@ public class TestConnect : MonoBehaviourPunCallbacks
         print("Connected to Server.");
         //Print The Nickname
         print(PhotonNetwork.LocalPlayer.NickName);
+
+        //Join the Lobby
+        PhotonNetwork.JoinLobby();
     }
 
     //When the Connection to the server fails
@@ -54,8 +57,6 @@ public class TestConnect : MonoBehaviourPunCallbacks
         //Print the Reason for Disconnection (The reasno is in cuase and inherited from OnDisconnected
         print("Disconnected from server because: " + cause.ToString());
     }
-    
-
 
 
 }

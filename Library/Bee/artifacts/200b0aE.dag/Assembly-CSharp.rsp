@@ -376,6 +376,9 @@
 "Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
 "Assets/Prefabs/MainMenu/Rooms/CreateRoom.cs"
 "Assets/ScriptableObjectSingleton.cs"
+"Assets/Scripts/SingletonReferences.cs"
+"Assets/Scripts/UI/RoomListing.cs"
+"Assets/Scripts/UI/RoomListingsMenu.cs"
 "Assets/TestConnect.cs"
 -langversion:9.0
 

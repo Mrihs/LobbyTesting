@@ -1,11 +1,14 @@
 ﻿<Properties StartupConfiguration="{C267A897-3F6D-F5B8-A1A9-D5295607DC15}|">
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Prefabs/MainMenu/Rooms/CreateRoom.cs">
     <Files>
-      <File FileName="Assets/TestConnect.cs" Line="49" Column="1" />
+      <File FileName="Assets/TestConnect.cs" Line="51" Column="35" />
       <File FileName="Assets/ScriptableObjectSingleton.cs" Line="8" Column="1" />
       <File FileName="Assets/MasterManager.cs" Line="11" Column="157" />
-      <File FileName="Assets/GameSettings.cs" Line="9" Column="2" />
-      <File FileName="Assets/Prefabs/MainMenu/Rooms/CreateRoom.cs" Line="1" Column="1" />
+      <File FileName="Assets/GameSettings.cs" Line="15" Column="1" />
+      <File FileName="Assets/Prefabs/MainMenu/Rooms/CreateRoom.cs" Line="23" Column="1" />
+      <File FileName="Assets/Scripts/UI/RoomListingsMenu.cs" Line="25" Column="33" />
+      <File FileName="Assets/Scripts/UI/RoomListing.cs" Line="14" Column="1" />
+      <File FileName="Assets/Scripts/SingletonReferences.cs" Line="8" Column="42" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,6 +21,9 @@
                     <Node name="CreateRoom.cs" selected="True" />
                   </Node>
                 </Node>
+              </Node>
+              <Node name="Scripts" expanded="True">
+                <Node name="UI" expanded="True" />
               </Node>
             </Node>
           </Node>

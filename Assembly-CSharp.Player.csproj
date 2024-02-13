@@ -64,8 +64,11 @@
     <Compile Include="Assets/ScriptableObjectSingleton.cs" />
     <Compile Include="Assets/Prefabs/MainMenu/Rooms/CreateRoom.cs" />
     <Compile Include="Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs" />
+    <Compile Include="Assets/Scripts/UI/RoomListing.cs" />
+    <Compile Include="Assets/Scripts/UI/RoomListingsMenu.cs" />
     <Compile Include="Assets/MasterManager.cs" />
     <Compile Include="Assets/Photon/PhotonLibs/WebSocket/SocketWebTcp.cs" />
+    <Compile Include="Assets/Scripts/SingletonReferences.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.xml" />
